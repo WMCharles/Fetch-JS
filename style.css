@@ -6,3 +6,28 @@ body {
     width: 70%;
     margin: 0 auto;
 }
+
+.img {
+    width: 100%;
+}
+
+.form {
+    width: 50%;
+    margin: auto;
+    padding: 1rem;
+    border: 1px solid black;
+    background-color: whitesmoke;
+}
+
+.form > input {
+    display: block;
+    width: 100%;
+    margin-bottom: 1.2rem;
+}
+
+#submit {
+    background-color: green;
+    border: none;
+    border-radius: 2px;
+    padding: 4px 0;
+}
