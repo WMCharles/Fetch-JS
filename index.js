@@ -4,16 +4,18 @@ document.getElementById('form').addEventListener('submit', userInput)
 // form that takes in user input 
 function userInput(e){
     e.preventDefault();
+
+    //converting user input to javascript objects
     let sheepObj = {
         title:e.target.article_title.value,
         image_url:e.target.url.value,
         content:e.target.description.value
     }
-    postSheep(sheepObj) //Up dates out json file using POST method
+    postSheep(sheepObj) //called to add user input to json file
     renderArticle(sheepObj) //To display it on our homepage
 }
 
-//This function is used to add items in the database
+//This function is used to add user input to json file using POST request
 function postSheep(sheepObj){
     fetch("http://localhost:3000/articles", {
         method:"POST",
