@@ -3,15 +3,18 @@
     {
       "id": 1,
       "title": "Example Article",
+      "image_url":"https://cdn.britannica.com/39/95439-050-78B87F34/Adult-sheep-lambs.jpg",
       "content": "Here we are fetching a JSON file across the network and printing it to the console. The simplest use of fetch() takes one argument — the path to the resource you want to fetc"
     },
     {
       "title": "Third Article",
+      "image_url":"https://cdn.britannica.com/39/95439-050-78B87F34/Adult-sheep-lambs.jpg",
       "content": "Here we are fetching a JSON file across the network and printing it to the console. The simplest use of fetch() takes one argument — the path to the resource you want to fetc",
       "id": 3
     },
     {
       "title": "4th Article",
+      "image_url":"https://cdn.britannica.com/39/95439-050-78B87F34/Adult-sheep-lambs.jpg",
       "content": "Here we are fetching a JSON file across the network and printing it to the console. The simplest use of fetch() takes one argument — the path to the resource you want to fetc",
       "id": 4
     }
